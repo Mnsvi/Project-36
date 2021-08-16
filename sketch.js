@@ -82,6 +82,8 @@ function draw() {
   //score++;}
   //for (var j = 0; j < particles.length; j++) {
   // particles[j].display();}
+ 
+ if(particles){ particles.display(); }
   
   for (var k = 0; k < divisions.length; k++) {
      
